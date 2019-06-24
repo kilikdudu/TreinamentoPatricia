@@ -1,0 +1,8 @@
+<Alloy>
+	<Window class="container">
+		<Label id="label" onClick="doClick" top="150">Informe o CEP:</Label>
+    <TextField class="myCep" id="cep" color="green" width="250" height="45" />
+		<Button id="button" onClick="doClick" title="Buscar"
+            top="10" width="100" height="50" />
+	</Window>
+</Alloy>

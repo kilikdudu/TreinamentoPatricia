@@ -1,0 +1,26 @@
+".container": {
+	backgroundColor:"white",
+	layout:'vertical',
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: 40,
+	color: "#000"
+}
+
+"#label": {
+	font: {
+		fontSize: 12
+	}
+}
+
+".myCep": {
+	borderWidth: 2,
+	borderRadius: 4,
+	borderColor: 'darkgray',
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	keyboardType: Ti.UI.KEYBOARD_TYPE_NUMBER_PAD
+}
